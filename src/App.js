@@ -25,9 +25,9 @@ class App extends React.Component {
       <>
         <div>
           <nav>
-            <h1>Start Bootstrap</h1>
+            <h1 className="main-logo">Start Bootstrap</h1>
             <div className="ham">
-              <span>MENU</span>
+              <span className="menu-text">MENU</span>
               <img
                 src="https://icon-library.net/images/menu-icon-white-png/menu-icon-white-png-27.jpg"
                 alt="ham_menu"

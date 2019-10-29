@@ -14,6 +14,17 @@ nav {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.main-logo {
+  font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fed136;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.menu-text {
+  font-size: 15px;
+}
+
 .ham {
   display: none;
   align-items: center;
@@ -47,7 +58,6 @@ ul li:hover {
 }
 
 main {
-  position: fixed;
   background-image: url("./header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -81,6 +91,19 @@ h2 {
   text-align: center;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 18px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #fed136;
+  color: white;
+  border: none;
 }
 
 .drop-down {
@@ -137,7 +160,7 @@ h2 {
     display: none;
   }
   .ham {
-    display: block;
+    display: flex;
   }
 
   .menu-open .drop-down {
